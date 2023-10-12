@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="layout.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <div id="container">
+        <header id="head">
+         <div class="topnav">
+            <div id="logo">
+                <img src="./images/roofing.png">
+                <p1>Kotitalo</p1>
+             </div>
+             <ul id="navi-list" class="nav-list">
+             <li class="list-item"><a class="active" href="#home">Etusivu</a></li>
+             <li class="list-item"><a href="#news">Asukkaalle</a></li>
+             <li class="list-item"><a href="#contact">Palvelumme</a></li>
+             <li class="list-item"><a href="#about">About</a></li>
+            </ul>
+            <div id="toggle-button"  class="menu">
+                <div class="menu-line"></div>
+                <div class="menu-line"></div>
+                <div class="menu-line"></div>
+            </div>
+         </div>
+         
+        </header>
+
+        <div class="main-part">
+            <h3>Avaintilaus</h3>
+            <form action="/action_page.php">
+
+                <label class="title" for="fname">Etunimi</label>
+                <input type="text" id="fname" name="Etunimi" placeholder="Etunimi">
+
+                <lable class="title" for="lname">Sukunimi</lable>
+                <input type="text" id="lname" name="Sukunimi" placeholder="Sukunimi">
+
+                <label class="title" for="email">Sähköposti</label>
+                <input type="text" id="email" placeholder="Sähköposti" name="email">
+
+                <label class="title" for="phone">Puhelinnumero</label>
+                <input type="text" id="phone" placeholder="Puhelinnumero" name="phone">
+
+                <label class="title" for="address">Osoite</label>
+                <input type="text" id="address" placeholder="Osoite" name="address">
+
+                <label class="title" for="subject">Aihe</label>
+                <textarea id="subject" name="subject" style="height:200px"></textarea>
+
+                <input class="title"  type="submit" value="Submit">
+               
+            </form>
+
+        </div>
+        <footer id="last-part">
+            <div class="socialIcon">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-snapchat"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            </div>
+            <div class="footer-nav">
+                <ul>
+                <li>
+                    <a href="#">Address</a>
+                </li>
+                <li>
+                    <a href="#">About us</a>
+                </li>
+                <li>
+                    <a href="#">contact us</a>
+                </li>
+              
+            </ul>
+            </div>
+            </footer>
+        
+
+
+   </body>  
+   <script>
+    const toggleButton = document.getElementById('toggle-button');
+    const naviList = document.getElementById('navi-list');
+
+    toggleButton.addEventListener('click', () =>{
+        naviList.classList.toggle('active')
+
+    })
+</script>   
+   </html>

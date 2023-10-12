@@ -1,0 +1,76 @@
+html {
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-inline: 1rem;
+  background-color: white;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#first-title {
+  background-image: url(../images/john-schnobrich-2FPjlAyMQTA-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 340px;
+  border-radius: 0.4rem;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  font-size: 1.4rem;
+  color: #ffffff;
+  font-weight: bold;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-block-end: 2rem;
+}
+#first-title h1 {
+  background-color: #80808078;
+  padding-block: 2rem;
+  padding-inline: 1rem;
+  border-radius: 1rem;
+}
+#cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+  text-align: center;
+  margin-block-end: 2rem;
+}
+#cards > * {
+  flex-basis: 100%;
+}
+#cards a {
+  max-width: 250px;
+}
+.card {
+  border-radius: 10px;
+  transition: transform 0.5s;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  padding: 2rem 1rem;
+}
+.card:hover {
+  transform: translateY(-10px);
+}
+#cards h2 {
+  font-size: 0.9rem;
+  color: #54b3d6;
+  font-weight: bold;
+  margin-block-end: 2rem;
+}
+#cards p {
+  margin-block-end: 2rem;
+}
+#cards button {
+  color: white;
+  background-color: #54b3d6;
+  border-radius: 2rem;
+  padding: 0.3rem;
+  border: 1px solid #54b3d6;
+}
+#cards button:hover {
+  cursor: inherit;
+}

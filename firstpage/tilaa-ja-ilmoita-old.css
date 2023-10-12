@@ -1,0 +1,734 @@
+/*mobile first*/
+@media screen and (max-width: 426px) {
+  html {
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+  }
+
+  body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    margin: 1rem;
+    background-color: #ffffff;
+  }
+
+  #logo img {
+    width: 2.3rem;
+    padding: 0.4rem;
+    margin-top: -9rem;
+    margin-left: -1.1rem;
+  }
+
+  #logo p {
+    font-size: 0.7rem;
+    margin-left: -15.3rem;
+  }
+
+  .topnav {
+    background-color: white;
+    width: 100%;
+    display: block;
+  }
+
+  .topnav a {
+    box-shadow: inset 0 0 0 0 #54b3d6;
+    color: white;
+    margin: 0 -0.25rem;
+    padding: 0 0.25rem;
+    transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    text-decoration-line: none;
+    font-family: sans-serif;
+    font-size: 0.8rem;
+  }
+
+  .topnav a:hover {
+    box-shadow: inset 150px 0 0 0 #54b3d6;
+    color: white;
+  }
+
+  .nav-list {
+    list-style-type: none;
+    width: 100%;
+    text-align: center;
+    display: none;
+    background-color: #54b3d6;
+  }
+  .list-item {
+    padding: 5px;
+    border-top: 1px solid;
+  }
+  .nav-list .list-item {
+    display: block;
+    border: 1px solid #2196f3;
+  }
+
+  .menu {
+    display: block;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    margin-right: 1rem;
+  }
+
+  .menu-line {
+    width: 20px;
+    height: 3px;
+    background-color: black;
+    margin-bottom: 4px;
+  }
+
+  .active {
+    display: block;
+  }
+
+  section {
+    background-image: url(./images/john-schnobrich-2FPjlAyMQTA-unsplash.jpg);
+    background-size: cover;
+    background-color: aqua;
+    background-position: center;
+    align-items: center;
+    height: 5rem;
+    border-radius: 0.4rem;
+    padding-top: 3px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    margin-top: 0.1rem;
+  }
+
+  #first-title {
+    padding: 6rem;
+    font-size: 1.4rem;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  #first-title h1 {
+    margin-top: -3rem;
+    background-color: #80808078;
+    margin-top: 1.3rem;
+    height: 1.2rem;
+    width: 8rem;
+    padding: 5px;
+    margin-left: -1rem;
+  }
+
+  .cards {
+    padding: 7rem;
+    width: 13rem;
+    height: 11rem;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-image: url(./images/jacques-bopp-Hh18POSx5qk-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  }
+
+  .card1 {
+    background-image: url(./images/bermix-studio-iwz5tmhjl7o-unsplash.jpg);
+  }
+  .card2 {
+    background-image: url(./images/bermix-studio-iwz5tmhjl7o-unsplash.jpg);
+  }
+  .card3 {
+    background-image: url(./images/bermix-studio-iwz5tmhjl7o-unsplash.jpg);
+  }
+  .card4 {
+    background-image: url(./images/bermix-studio-iwz5tmhjl7o-unsplash.jpg);
+  }
+  .card5 {
+    background-image: url(./images/bermix-studio-iwz5tmhjl7o-unsplash.jpg);
+  }
+  .card6 {
+    background-image: url(./images/bermix-studio-iwz5tmhjl7o-unsplash.jpg);
+  }
+  .card:hover {
+    transform: translateY(-10px);
+  }
+  h1 {
+  }
+  p {
+    font-family: "Futura Bold", Sans-serif;
+    text-align: center;
+  }
+
+  #all-cards {
+    margin-top: 2rem;
+    margin-left: -1rem;
+    margin-left: 1.2rem;
+  }
+
+  button {
+    margin-left: 3rem;
+    color: white;
+    background-color: #54b3d6;
+    border-radius: 2rem;
+    padding: 0.3rem;
+    border: 1px solid #54b3d6;
+    margin-top: 2rem;
+  }
+  #last-part {
+    background-color: #54b3d6;
+    margin-top: 3rem;
+    border-radius: 10px;
+  }
+  .socialIcon {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+  }
+
+  .socialIcon a {
+    text-decoration: none;
+    padding: 6px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+  }
+  .socialIcon a i {
+    font-size: 1.5em;
+    color: black;
+    opacity: 0.9;
+  }
+
+  .socialIcon a:hover {
+    background-color: #111;
+    transition: 0.5s;
+  }
+  .socialIcon a:hover i {
+    color: white;
+    transition: 0.5s;
+  }
+  .footer-nav {
+    margin: 30px 0;
+    padding-bottom: 1rem;
+    font-size: 0.6rem;
+    margin-left: -1.4rem;
+  }
+  .footer-nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-top: -1rem;
+  }
+  .footer-nav ul li a {
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+  }
+  .footer-nav ul li a:hover {
+    opacity: 1;
+  }
+  #palvelut {
+    margin-top: 1rem;
+    color: #54b3d6;
+    font-weight: bold;
+    font-size: 2rem;
+    margin-block-end: 2rem;
+    margin-left: 1rem;
+  }
+  .socialIcon a {
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+  }
+  .socialIcon a i {
+    color: black;
+    opacity: 0.9;
+  }
+  .socialIcon a:hover {
+    background-color: #111;
+    transition: 0.5s;
+  }
+  .socialIcon a:hover i {
+    color: white;
+    transition: 0.5s;
+  }
+
+  .socialIcon h1 {
+    margin-bottom: -2rem;
+    color: white;
+  }
+  .footer-nav {
+    margin: 30px 0;
+  }
+  .footer-nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+  }
+
+  .footer-nav ul li a {
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+  }
+  .footer-nav ul li a:hover {
+    opacity: 1;
+  }
+  #footer-title {
+    font-size: 0.9rem;
+    margin-left: 1rem;
+  }
+  #p1 {
+    margin-left: 1rem;
+    font-size: 0.7rem;
+    margin-top: 1rem;
+  }
+  #footer-social {
+    margin-top: 1rem;
+  }
+  #footer {
+    margin-top: 1rem;
+    margin-left: -1rem;
+  }
+  #footer2 {
+    margin-top: 1rem;
+  }
+  .socialIcon {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+
+    flex-direction: column;
+  }
+}
+
+/*Tablet*/
+@media screen and (min-width: 426px) {
+  html {
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+  }
+  body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    margin: 1rem;
+    background-color: #ffffff;
+  }
+  #logo img {
+    width: 3rem;
+    margin-top: -10rem;
+    margin-bottom: 0.4rem;
+  }
+
+  .topnav {
+    background-color: white;
+    width: 100%;
+    overflow: hidden;
+    margin-top: -1rem;
+    display: flex;
+  }
+  .topnav a {
+    box-shadow: inset 0 0 0 0 #54b3d6;
+    color: #54b3d6;
+    margin: 0 -0.25rem;
+    padding: 0 0.25rem;
+    transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    text-decoration-line: none;
+    font-family: sans-serif;
+  }
+  .topnav ul {
+    margin-left: 1rem;
+    display: flex;
+    float: right;
+    padding: 15px 30px;
+    text-decoration: none;
+    gap: 1rem;
+    font-family: initial;
+    margin-top: 1rem;
+    font-size: 0.7rem;
+  }
+  .topnav a:hover {
+    box-shadow: inset 150px 0 0 0 #54b3d6;
+    color: white;
+  }
+  section {
+    background-image: url(./images/john-schnobrich-2FPjlAyMQTA-unsplash.jpg);
+    background-size: cover;
+    background-color: aqua;
+    background-position: center;
+    align-items: center;
+    height: 5rem;
+    border-radius: 0.4rem;
+    padding-top: 3px;
+
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  }
+  #first-title h2 {
+    border: 1px solid #80808078;
+    padding: 1rem;
+    background-color: #80808078;
+    border-radius: 20px 5px;
+    font-size: 2.4rem;
+  }
+  #first-title {
+    padding: 8rem;
+    font-size: 2.3rem;
+    color: #ffffff;
+    font-weight: bold;
+  }
+  #first-title h1 {
+    border: 1px solid #80808078;
+    padding: 1rem;
+    background-color: #80808078;
+    border-radius: 20px 5px;
+    font-size: 2.4rem;
+  }
+  .cards {
+    padding: 7rem;
+    width: 14rem;
+    height: 14rem;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-image: url(./images/jacques-bopp-Hh18POSx5qk-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  }
+  .card1 {
+    background-image: url(./images/bermix-studio-iwz5tmhjl7o-unsplash.jpg);
+  }
+  .card2 {
+    background-image: url(./images/bermix-studio-iwz5tmhjl7o-unsplash.jpg);
+  }
+  .card3 {
+    background-image: url(./images/bermix-studio-iwz5tmhjl7o-unsplash.jpg);
+  }
+  .card4 {
+    background-image: url(./images/bermix-studio-iwz5tmhjl7o-unsplash.jpg);
+  }
+  .card5 {
+    background-image: url(./images/bermix-studio-iwz5tmhjl7o-unsplash.jpg);
+  }
+  .card6 {
+    background-image: url(./images/bermix-studio-iwz5tmhjl7o-unsplash.jpg);
+  }
+  .card:hover {
+    transform: translateY(-10px);
+  }
+  h1 {
+    font-size: 0.9rem;
+    text-align: center;
+    color: #54b3d6;
+    font-weight: bold;
+  }
+
+  p {
+    text-align: center;
+    font-family: "Futura Bold", Sans-serif;
+    margin-top: 2rem;
+    margin-left: 2rem;
+  }
+  #all-cards {
+    margin-top: 3rem;
+    margin-left: 2rem;
+  }
+  button {
+    margin-left: 4rem;
+    color: white;
+    background-color: #54b3d6;
+    border-radius: 2rem;
+    padding: 0.3rem;
+    border: 1px solid #54b3d6;
+    margin-top: 3rem;
+  }
+  #last-part {
+    background-color: #54b3d6;
+    margin-top: 3rem;
+    border-radius: 10px;
+    height: 10rem;
+  }
+  .socialIcon {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+  }
+
+  .socialIcon a {
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+  }
+  .socialIcon a i {
+    font-size: 1.5em;
+    color: black;
+    opacity: 0.9;
+  }
+
+  .socialIcon a:hover {
+    background-color: #111;
+    transition: 0.5s;
+  }
+  .socialIcon a:hover i {
+    color: white;
+    transition: 0.5s;
+  }
+  .footer-nav {
+    margin: 30px 0;
+    padding-bottom: 1rem;
+    margin-top: -1rem;
+  }
+  .footer-nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+  }
+  .footer-nav ul li a {
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+  }
+  .footer-nav ul li a:hover {
+    opacity: 1;
+  }
+  #footer {
+    margin-left: 7rem;
+  }
+  #footer2 {
+    margin-left: 17rem;
+  }
+  #palvelut {
+    margin-top: 1rem;
+    color: #54b3d6;
+    font-weight: bold;
+    font-size: 2rem;
+    margin-block-end: 2rem;
+    margin-left: 1rem;
+  }
+}
+
+/*Desktop-säänöt*/
+@media screen and (min-width: 769px) {
+  html {
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+  }
+  body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    margin: 1rem;
+    background-color: #ffffff;
+  }
+  #logo img {
+    width: 3rem;
+  }
+
+  .topnav {
+    background-color: white;
+    width: 100%;
+    height: 3rem;
+    overflow: hidden;
+  }
+  .topnav a {
+    box-shadow: inset 0 0 0 0 #54b3d6;
+    color: #54b3d6;
+    margin: 0 -0.25rem;
+    padding: 0 0.25rem;
+    transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    text-decoration-line: none;
+    font-family: sans-serif;
+  }
+  .topnav ul {
+    display: flex;
+    float: right;
+    padding: 15px 30px;
+    text-decoration: none;
+    gap: 2rem;
+    font-family: initial;
+    /* font-weight: bold; */
+    margin-top: 1rem;
+    margin-left: 10rem;
+    font-size: 1.3rem;
+  }
+  .topnav a:hover {
+    box-shadow: inset 150px 0 0 0 #54b3d6;
+    color: white;
+  }
+
+  .menu-line {
+    width: 20px;
+    height: 3px;
+    background-color: black;
+    margin-bottom: 4px;
+    display: none;
+  }
+
+  section {
+    background-image: url(./images/john-schnobrich-2FPjlAyMQTA-unsplash.jpg);
+    background-size: cover;
+    background-color: aqua;
+    background-position: center;
+    align-items: center;
+    height: 5rem;
+    border-radius: 0.4rem;
+    padding-top: 3px;
+    margin-top: 1rem;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  }
+  #first-title h2 {
+    border: 1px solid #80808078;
+    padding: 2rem;
+    background-color: #80808078;
+    border-radius: 20px 5px;
+    font-size: 2.4rem;
+
+    text-align: center;
+  }
+
+  #first-title {
+    padding: 8rem;
+    font-size: 2.3rem;
+    color: #ffffff;
+    font-weight: bold;
+  }
+  #first-title h1 {
+    border: 1px solid #80808078;
+    padding: 3rem;
+    margin-top: -3rem;
+    background-color: #80808078;
+    border-radius: 20px 5px;
+    font-size: 2.4rem;
+  }
+  .cards {
+    padding: 7rem;
+    width: 20rem;
+    height: 15rem;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  }
+
+  .card:hover {
+    transform: translateY(-10px);
+  }
+  h1 {
+    font-size: 0.9rem;
+    text-align: center;
+  }
+  p {
+    text-align: center;
+    font-family: "Futura Bold", Sans-serif;
+  }
+  #all-cards {
+    margin-top: 3rem;
+  }
+  button {
+    margin-left: 6rem;
+    color: white;
+    background-color: #54b3d6;
+    border-radius: 2rem;
+    padding: 0.3rem;
+    border: 1px solid #54b3d6;
+    margin-top: 4rem;
+  }
+  #last-part {
+    background-color: #54b3d6;
+    margin-top: 2rem;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    height: 20rem;
+  }
+  .socialIcon {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    margin-left: -2rem;
+  }
+
+  .socialIcon a {
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+  }
+  .socialIcon a i {
+    color: black;
+    opacity: 0.9;
+  }
+  .socialIcon a:hover {
+    background-color: #111;
+    transition: 0.5s;
+  }
+  .socialIcon a:hover i {
+    color: white;
+    transition: 0.5s;
+  }
+
+  .socialIcon h1 {
+    margin-bottom: -2rem;
+    color: white;
+  }
+  .footer-nav {
+    margin: 30px 0;
+  }
+  .footer-nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+  }
+  .footer-nav ul li a {
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+  }
+  .footer-nav ul li a:hover {
+    opacity: 1;
+  }
+  #footer-title {
+    font-size: 1.4rem;
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+    color: black;
+  }
+  #p1 {
+    margin-left: 1rem;
+  }
+  #footer {
+    margin-left: 7rem;
+  }
+  #footer2 {
+    margin-left: 8rem;
+  }
+  #palvelut {
+    margin-top: 1rem;
+    color: #54b3d6;
+    font-weight: bold;
+    font-size: 2rem;
+    margin-block-end: 2rem;
+    margin-left: 1rem;
+  }
+}

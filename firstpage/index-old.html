@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>first page</title>
+    <link rel="stylesheet" href="../styles/reset.css" />
+    <link rel="stylesheet" href="./layout-old.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div id="whole-container">
+      <header id="head">
+        <div class="topnav-1">
+          <div id="logo">
+            <p>kotitalo</p>
+            <img src="../images/roofing.png" />
+          </div>
+          <ul id="navi-list" class="nav-list">
+            <li class="list-item">
+              <a class="active" href="#home">Etusivu</a>
+            </li>
+            <li class="list-item"><a href="#news">Asukkaalle</a></li>
+            <li class="list-item"><a href="#contact">Palvelumme</a></li>
+            <li class="list-item"><a href="#about">Tilaa ja ilmoita</a></li>
+            <li class="list-item"><a href="#about">Keitä olemme</a></li>
+            <li class="list-item"><a href="#about">yhteystiedot</a></li>
+          </ul>
+          <div id="toggle-button" class="menu">
+            <div class="menu-line"></div>
+            <div class="menu-line"></div>
+            <div class="menu-line"></div>
+          </div>
+        </div>
+      </header>
+      <section class="small-title">
+        <h1>Elämäsi on helpompaa kanssamme</h1>
+
+        <!-- </div> -->
+      </section>
+
+      <section3 id="all-container">
+        <div id="container">
+          <h2>Keitä olemme</h2>
+
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
+            officia, eum ab sunt deserunt saepe neque, atque incidunt architecto
+            autem minus nulla doloremque magni iste consequatur placeat cumque
+            aspernatur eveniet Lorem ipsum dolor Lorem ipsum, dolor sit amet
+            consectetur adipisicing elit. Animi quam officia, nulla facere omnis
+            error assumenda quaerat atque repellendus, sequi fugit dolores
+            architecto natus, sunt quasi possimus aspernatur vero quia? sit amet
+          </p>
+        </div>
+
+        <div id="container2">
+          <div id="container-second">
+            <div id="container-third"></div>
+          </div>
+        </div>
+      </section3>
+      <section4>
+        <div class="all-cards">
+          <div id="all-services">
+            <h>Palvelumme</h>
+          </div>
+          <div class="card card1">
+            <div id="card-img"></div>
+            <p id="paragraph">Kiinteistöpalvelut</p>
+            <img src="" alt="" />
+          </div>
+
+          <div class="card card2">
+            <div id="card-img"></div>
+            <p id="paragraph">Huoltopalvelut</p>
+            <img src="" alt="" />
+          </div>
+
+          <div class="card card3">
+            <div id="card-img"></div>
+            <p id="paragraph">Remontti</p>
+            <img src="" alt="" />
+          </div>
+          <div class="card card4">
+            <div id="card-img"></div>
+            <p id="paragraph">Maalauspalvelut</p>
+            <img src="" alt="" />
+          </div>
+
+          <div class="card card5">
+            <div id="card-img"></div>
+            <p id="paragraph">Siivouspalvelut</p>
+            <img src="" alt="" />
+          </div>
+        </div>
+      </section4>
+      <footer id="last-part">
+        <div class="footer-nav">
+          <ul>
+            <li>
+              <h1 id="footer-title">Social Media</h1>
+              <div class="socialIcon">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-snapchat"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+              </div>
+            </li>
+            <li id="footer">
+              <h1 id="footer-title">Yhteystiedot</h1>
+
+              <p id="p1">puh:0460123456</p>
+              <br />
+              <p id="p1">puh:0460123456</p>
+              <br />
+              <p id="p1">info@kotitalo.fi</p>
+            </li>
+            <li id="footer2">
+              <h1 id="footer-title">Osoite</h1>
+              <p id="p1">Annankatu 24</p>
+              <br />
+              <p id="p1">00100 Helsinki</p>
+            </li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+  </body>
+  <script>
+    const toggleButton = document.getElementById("toggle-button");
+    const naviList = document.getElementById("navi-list");
+
+    toggleButton.addEventListener("click", () => {
+      naviList.classList.toggle("active");
+    });
+  </script>
+</html>

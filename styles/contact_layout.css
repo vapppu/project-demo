@@ -1,0 +1,99 @@
+/* -------------------------------------------------------------------- */
+.people {
+  width: 100%;
+  font-family: sans-serif;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+
+  line-height: 1.2;
+  border-radius: 10px 5px;
+  background-color: #5caea812;
+}
+
+.human {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+}
+
+.photo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.photo img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+h3 {
+  font-size: 1.5rem;
+  /* text-align: center; */
+  margin-top: 1rem;
+}
+
+.p {
+  font-size: 1rem;
+}
+
+.social {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 2.5rem;
+  line-height: 190%;
+}
+
+.social a {
+  color: #54b3d6;
+}
+
+.social i {
+  font-size: 2rem;
+}
+
+.social p:first-child {
+  margin-right: 10px;
+}
+
+.social p:last-child {
+  margin-left: 10px;
+}
+
+.flags {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.flag {
+  width: 35px;
+  height: 35px;
+}
+
+aside ul {
+  text-align: left;
+  list-style-type: disc;
+  padding-left: 2rem;
+  padding-right: 1rem;
+}
+
+aside h3 {
+  font-size: 1.5rem;
+  padding: 0.7rem;
+}
+
+small {
+  font-size: 0.6rem;
+}
+
+aside {
+  background-color: #54b3d6;
+  border-radius: 10px;
+}
