@@ -74,3 +74,11 @@ a {
 #cards button:hover {
   cursor: inherit;
 }
+@media screen and (min-width: 426px) {
+  .cards a {
+    display: block;
+  }
+  .card {
+    min-height: 250px;
+  }
+}

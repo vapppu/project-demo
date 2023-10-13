@@ -46,7 +46,7 @@ fetch(`./non-login-header.html`)
         });
 
         closeModalBtn.addEventListener("click", function (event) {
-          event.preventDefault();
+          // event.preventDefault();
           modal.style.display = "none";
           overlay.style.display = "none";
         });

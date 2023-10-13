@@ -1,0 +1,139 @@
+.topnav ul a {
+  box-shadow: inset 0 0 0 0 white;
+  color: white;
+  transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  text-decoration-line: none;
+  font-family: sans-serif;
+}
+.topnav ul a:hover {
+  box-shadow: inset 150px 0 0 0 white;
+  color: #54b3d6;
+}
+.wrapper {
+  padding-block: 4.5rem 0rem;
+  padding-inline: 1rem;
+  padding-block-end: 1rem;
+}
+.address {
+  text-align: center;
+}
+#mainbox {
+  width: 100%;
+  margin-block-end: 1rem;
+}
+.middlenav ul li {
+  background-color: white;
+}
+
+h1 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 2rem;
+}
+header {
+  margin-block-end: 0.5rem;
+}
+
+#maincontent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+.wrapper h1,
+.input-box,
+.remember {
+  margin-block-end: 30px;
+}
+i {
+  display: inline;
+  font-size: 20px;
+  padding-inline: 0.5rem;
+}
+
+.remember {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  font-size: 0.7rem;
+}
+.remember label input {
+  accent-color: #9f1414;
+  font-size: 0.7rem;
+}
+.remember a {
+  color: black;
+  font-size: 0.5rem;
+}
+
+.btn {
+  width: 100%;
+  padding: 0.5rem;
+  background: #54b3d6c7;
+  border: none;
+  border-radius: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+  cursor: pointer;
+  color: #fff;
+  font-weight: 600;
+}
+.btn:hover {
+  background-color: bisque;
+}
+.register {
+  font-size: 0.7rem;
+  text-align: center;
+  margin: 20px 0 15px;
+}
+.register p a {
+  color: black;
+  font-weight: 600;
+  margin-inline-start: 0.25rem;
+}
+form {
+  max-width: 250px;
+}
+.news {
+  margin-block-end: 1rem;
+}
+.newsfeed {
+  background-color: #54b3d6c7;
+  padding: 1rem;
+  border-radius: 14px;
+}
+.newsfeed h2 {
+  color: white;
+}
+.newsfeed a {
+  display: block;
+  text-align: center;
+}
+main {
+  border-radius: 10px;
+  background-image: url("../images/third_pic.jpg");
+  /* background-size: 100% calc(100%); */
+  max-height: fit-content;
+  background-size: cover;
+
+  background-position: center;
+}
+.background-opaque {
+  background-color: rgba(255, 255, 255, 0.85);
+  min-height: 400px;
+}
+.wrapper {
+  padding: 4.5rem;
+}
+/* Tablet view */
+@media only screen and (max-width: 768px) {
+  .wrapper {
+    padding-inline: 0.5rem;
+  }
+}
+
+/* Mobile view */
+@media only screen and (max-width: 425px) {
+  #maincontent {
+  }
+}

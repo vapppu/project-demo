@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>first page</title>
+    <link rel="stylesheet" href="../styles/reset.css" />
+    <!-- <link rel="stylesheet" href="./global_layout.css" /> -->
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="./login_index.css" />
+    <link rel="stylesheet" href="./newsfeed.css" />
+    <link rel="stylesheet" href="./layout.css">
+
+    <link rel="stylesheet" href="./non-login-footer-header.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+
+  </head>
+  <body>
+
+    <header id="login-header">
+    </header>
+
+
+    <div id="maincontent">
+    <main id="mainbox">
+      <div class="background-opaque">
+        <section class="wrapper">
+          <h1>Asukassivut</h1>
+          <p class="address">As. OY Kristalli</p>
+          <p class="address">Pikselikatu 12, Helsinki</p>
+          <section class="middlenav">
+            <ul>
+              <li><a href="./tilaa-ja-ilmoita.html">Tee vikailmoitus</a></li>
+              <li><a href="./tilaa-ja-ilmoita.html">Varaa tiloja</a></li>
+              <li><a href="./newsfeed.html">Tiedotteet</a></li>
+              <li><a href="./index.html#yhteystiedot">Ota yhteyttä</a></li>
+            </ul>
+          </section>
+        </section>
+      </div>
+    </main>
+    <section class="newsfeed">
+      <h2>Uutiset ja tiedotteet</h1>
+      <section class="news">
+        <article id="news1">
+          <h3>News 1</h3>
+          <p class="date">Fri 14th Sept 2023 09:23</p>
+          <div class="articleBody"></div>
+          <a onclick="toggleArticle(this.parentElement)"></a>
+        </article>
+        <article id="news2">
+          <h3>News 2</h3>
+          <p class="date">Thu 13th Sept 2023 17:01</p>
+          <div class="articleBody"></div>
+          <a onclick="toggleArticle(this.parentElement)"></a>
+        </article>
+        <article id="news3">
+          <h3>News 3</h3>
+          <p class="date">Thu 13th Sept 2023 12:48</p>
+          <div class="articleBody"></div>
+          <a onclick="toggleArticle(this.parentElement)"></a>
+        </article>
+      </section>
+      <a href="" onclick="loadPage('newsfeed.html'); return false;">Kaikki uutiset ja tiedotteet</a>
+    </section>
+</div>
+    <hr />
+
+    <footer id="footer"></footer>
+    <script src="./login-layout.js"></script>
+
+    <script src="./main.js"></script>
+  </body>
+</html>

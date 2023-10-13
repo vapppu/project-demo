@@ -21,7 +21,7 @@
     <header id="non-login-header"></header>
 
     <div class="main-part">
-      <h1>Avaintilaus</h1>
+      <h1>Saunavuoron varaus</h1>
       <form action="/action_page.php">
         <label class="title" for="fname">Etunimi</label>
         <input type="text" id="fname" name="Etunimi" placeholder="Etunimi" />
@@ -43,9 +43,21 @@
         <label class="title" for="address">Osoite</label>
         <input type="text" id="address" placeholder="Osoite" name="address" />
 
-        <label class="title" for="subject">Aihe</label>
-        <textarea id="subject" name="subject" style="height: 200px"></textarea>
-
+        <h2>Valitse saunavuoro:</h2>
+        <ul class="radiobuttons">
+          <li>
+            <label class="inline">Maanantai 17.00-18.00</label
+            ><input type="radio" />
+          </li>
+          <li>
+            <label class="inline">Keskiviikko 21.00-12.00</label
+            ><input type="radio" />
+          </li>
+          <li>
+            <label class="inline">Perjantai 16.00-17.00</label
+            ><input type="radio" />
+          </li>
+        </ul>
         <input class="title" type="submit" value="Submit" />
       </form>
     </div>

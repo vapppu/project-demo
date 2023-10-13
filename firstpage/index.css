@@ -1,0 +1,149 @@
+header {
+  margin-block-end: 0;
+}
+
+.small-title {
+  height: 400px;
+  display: flex;
+  background-image: url(../images/first\ image.jpeg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 0.4rem;
+  padding-inline: 8rem;
+  color: #ffffff;
+}
+
+.small-title h1 {
+  background-color: #80808078;
+  border: 1px solid #80808078;
+  border-radius: 20px 5px;
+  padding: 3rem;
+  margin: auto;
+  font-size: 2.3rem;
+  font-weight: bold;
+}
+.middlenav ul {
+  padding-block: 70px;
+  font-family: initial;
+  font-weight: bold;
+  font-size: 0.8rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 0.5rem;
+  text-align: center;
+}
+.middlenav ul li {
+  flex-grow: 1;
+  flex-basis: 100%;
+  border: 0.1rem solid lightgrey;
+  padding: 25px;
+  border-radius: 20px 5px;
+}
+.middlenav a {
+  position: relative;
+  text-decoration-line: none;
+  font-family: sans-serif;
+  color: #54b3d6;
+}
+.middlenav a::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  border-radius: 4px;
+  background-color: #54b3d6;
+  bottom: 0;
+  left: 0;
+  transform-origin: right;
+  transform: scaleX(0);
+  transition: transform 0.3s ease-in-out;
+}
+
+.middlenav a:hover::before {
+  transform-origin: left;
+  transform: scaleX(1);
+}
+
+#text-content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 3rem;
+}
+
+#text-content > * {
+  flex-basis: 0;
+  padding-block-end: 1rem;
+}
+#text-content > * > * {
+  padding: 1rem;
+}
+#about {
+  border-radius: 10px 5px;
+  background-color: #5caea812;
+  flex-grow: 2;
+}
+#news {
+  border-radius: 10px 5px;
+  background-color: #54b3d6;
+  flex-grow: 1;
+}
+#news h2 {
+  text-align: center;
+  border-block-end: 1px solid white;
+}
+#about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#about > * {
+  flex-grow: 1;
+}
+#about h2 {
+  margin-top: 1rem;
+  margin-bottom: auto;
+}
+
+/* Tablet view */
+@media only screen and (max-width: 768px) {
+  .small-title {
+    padding-inline: 1rem;
+  }
+  .small-title h1 {
+    padding: 1rem;
+  }
+  .middlenav ul li {
+    padding-inline: 0.5rem;
+  }
+  #text-content {
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  #text-content > * {
+    flex-basis: 100%;
+    flex-grow: 1;
+  }
+  #about {
+    order: 2;
+  }
+}
+
+/* Mobile view */
+@media only screen and (max-width: 425px) {
+  .small-title {
+    padding-inline: 0.5rem;
+  }
+  .small-title h1 {
+    font-size: 1.8rem;
+    padding: 0.5rem;
+  }
+  .middlenav ul {
+    flex-wrap: wrap;
+    padding-block: 2rem;
+  }
+  .middlenav ul > * {
+    flex-basis: 30%;
+  }
+}
